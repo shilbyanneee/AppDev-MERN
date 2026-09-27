@@ -182,3 +182,181 @@
     border-right-color: var(--border);
   }
 }
+
+/* ===== Navbar ===== */
+.navbar {
+  display: flex;
+  gap: 1.5rem;
+  padding: 1rem 1.5rem;
+  background: #cce0ff;
+}
+
+.navbar a {
+  color: #1e3a8a;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+/* ===== Student List page ===== */
+.student-list-page {
+  padding: 2.5rem 1.5rem;
+  text-align: center;
+  background: white;
+  min-height: 100vh;
+}
+
+.student-list-page h1 {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #0f172a;
+  margin-bottom: 2rem;
+}
+
+.student-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.student-card {
+  background: white;
+  color: #0f172a;
+  border-radius: 8px;
+  padding: 1.2rem;
+  width: 220px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+  text-align: center;
+}
+
+.student-card h2 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 0 0 0.5rem;
+  color: #0f172a;
+}
+
+.student-card p {
+  font-size: 0.8rem;
+  color: #1e293b;
+  margin: 0.2rem 0;
+}
+
+.student-card button {
+  margin-top: 0.8rem;
+  background: #3b82f6;
+  color: white;
+  border: none;
+  padding: 0.4rem 0.9rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.student-card button:hover {
+  background: #2563eb;
+}
+
+/* ===== Student Details page ===== */
+.student-details-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 1rem;
+  background: white;
+  min-height: 100vh;
+  color: #0f172a;
+}
+
+.student-details-page h2 {
+  font-size: 1.2rem;
+  margin-bottom: 1.2rem;
+  color: #0f172a;
+}
+
+.student-details-page p {
+  font-size: 0.9rem;
+  margin: 0.3rem 0;
+  color: #1e293b;
+}
+
+.student-details-page a {
+  margin-top: 1.2rem;
+  background: #3b82f6;
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-size: 0.85rem;
+}
+
+.student-details-page a:hover {
+  background: #2563eb;
+}
+
+/* ===== Add Student page ===== */
+.add-student-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 1rem;
+  background: #f1f1f1;
+  min-height: 100vh;
+}
+
+.add-student-form {
+  background: white;
+  color: #0f172a;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem 2rem;
+  width: 100%;
+  max-width: 320px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.add-student-form h2 {
+  font-size: 1.1rem;
+  margin: 0 0 1rem;
+  color: #0f172a;
+}
+
+.add-student-form label {
+  text-align: left;
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+  margin-top: 0.6rem;
+  color: #1e293b;
+}
+
+.add-student-form input,
+.add-student-form select {
+  width: 100%;
+  padding: 0.4rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  box-sizing: border-box;
+  color: #0f172a;
+  background: white;
+}
+
+.add-student-form button {
+  margin-top: 1.2rem;
+  background: #3b82f6;
+  color: white;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.add-student-form button:hover {
+  background: #2563eb;
+}

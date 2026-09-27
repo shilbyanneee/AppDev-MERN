@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "fullname": "Shilby Anne Medel",
+    "studentNumber": "202403413",
+    "course": "BSIT",
+    "courseDescription": "Bachelor of Science in Information Technology",
+    "yearLevel": "3rd Year",
+    "sex": "Female"
+  },
+  {
+    "id": 2,
+    "fullname": "John Raffael",
+    "studentNumber": " 202493514",
+    "course": "BSCS",
+    "courseDescription": "Bachelor of Science in Computer Science",
+    "yearLevel": "3rd Year",
+    "sex": "Male"
+  },
+  {
+    "id": 3,
+    "fullname": "Juan dela Cruz",
+    "studentNumber": "202403415",
+    "course": "BSIS",
+    "courseDescription": "Bachelor of Science in Information Systems",
+    "yearLevel": "3rd Year",
+    "sex": "Male"
+  }
+]
